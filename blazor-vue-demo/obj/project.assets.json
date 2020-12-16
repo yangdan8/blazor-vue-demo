@@ -1150,11 +1150,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\blazor-vue-demo\\blazor-vue-demo\\blazor-vue-demo.csproj",
+      "projectUniqueName": "E:\\github\\blazor-vue-demo\\blazor-vue-demo\\blazor-vue-demo.csproj",
       "projectName": "blazor-vue-demo",
-      "projectPath": "E:\\blazor-vue-demo\\blazor-vue-demo\\blazor-vue-demo.csproj",
+      "projectPath": "E:\\github\\blazor-vue-demo\\blazor-vue-demo\\blazor-vue-demo.csproj",
       "packagesPath": "C:\\Users\\ydnew\\.nuget\\packages\\",
-      "outputPath": "E:\\blazor-vue-demo\\blazor-vue-demo\\obj\\",
+      "outputPath": "E:\\github\\blazor-vue-demo\\blazor-vue-demo\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

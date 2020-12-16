@@ -8,17 +8,19 @@ const { exec } = require("child_process");
 module.exports = class CopyWebpackPlugin {
   apply(compiler) {
     compiler.hooks.done.tap("CopyWebpackPlugin", (compiler) => {
-      const from = path.resolve(__dirname, "../dist");
-      const to = path.resolve(__dirname, "../../wwwroot");
+      const from = path.resolve(__dirname, "../dist/*");
+      console.log(from);
+      const to = path.resolve(__dirname, "../../blazor-vue-demo/wwwroot");
+      console.log(to);
       new Promise((resolve, reject) => {
         let cmd = "";
         switch (os.type().toLowerCase()) {
           case "windows_nt":
-            cmd = `xcopy ${from} ${to} /e /q /y`;
+            cmd = `rmdir ${to} /S/Q && mkdir ${to} && xcopy ${from} ${to} /e /q /y`;
             break;
           case "darwin":
           case "linux":
-            cmd = `cp -r ${from} ${path.resolve(to, "../")}`;
+            cmd = `rm -rf ${to} && mkdir ${to} && cp -r ${from} ${to}`;
             break;
         }
         console.log(`\n开始执行复制\n${cmd}\n`);

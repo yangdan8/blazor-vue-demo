@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eqlA+aEQ3J/nkUoLJa2RdxRnmxBxxRrzQvUdpSCg+To+Z77mMJtz5XSyIk/nRZSrPdtPWiro005CcOdTj9FXUw==",
+  "dgSpecHash": "N1VBLDxDgXVKo/bHKO/mfvEVaR8D2UBnsbNGSQy5kNsVQ2b0Pd4dA5Oq3atdWGLWCQ764AYjgPlo4dJ9DwGyVg==",
   "success": true,
-  "projectFilePath": "E:\\blazor-vue-demo\\blazor-vue-demo\\blazor-vue-demo.csproj",
+  "projectFilePath": "E:\\github\\blazor-vue-demo\\blazor-vue-demo\\blazor-vue-demo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ydnew\\.nuget\\packages\\microsoft.aspnetcore.authorization\\5.0.1\\microsoft.aspnetcore.authorization.5.0.1.nupkg.sha512",
     "C:\\Users\\ydnew\\.nuget\\packages\\microsoft.aspnetcore.components\\5.0.1\\microsoft.aspnetcore.components.5.0.1.nupkg.sha512",
