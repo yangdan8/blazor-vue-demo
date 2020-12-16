@@ -1,0 +1,18 @@
+@using Microsoft.JSInterop
+
+@implements IDisposable
+@inject IJSRuntime jsRuntime
+@code {
+    private static int _CountNum = 0;
+
+    [JSInvokable]
+    public static int CountNum()
+    {
+        return ++_CountNum;
+    }
+
+    public void Dispose()
+    {
+        _CountNum = 0;
+    }
+}
